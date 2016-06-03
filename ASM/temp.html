@@ -1,0 +1,37 @@
+<form method="post"  action="addcropdetailexe.php" enctype="multipart/form-data" name="form1" id="form1">
+  <p>
+    <label for="cropname">Crop Name:</label>
+    <input type="text" name="cropname" id="cropname" required>
+  </p>
+  <p>Scientific Name
+    <input type="text" name="sname" id="sname" required>
+  </p>
+  <p><br> 
+    <label for="cropdetail">Crop Details:</label>
+    <textarea name="cropdetail" id="cropdetail" required></textarea>
+  </p>
+  <p>
+    <label for="category">Crop Category:</label>
+    <select name="category" id="category">
+      <option selected="selected">Cereals</option>
+      <option>Fruits</option>
+      <option>Vegetables</option>
+    </select>
+  </p>
+  <p>
+    <label for="harvest">Harvesting:</label>
+    <textarea name="harvest" id="harvest"></textarea>
+  </p>
+  <p>
+    <label for="uses">Uses:</label>
+    <textarea name="uses" id="uses"></textarea>
+  </p>
+  <p>
+    <label for="fileField">Crop Image:</label>
+  <input type = "file" name = "image"  required/>
+  </p>
+  <p>
+    <input name="submit" type="submit" id="submit" formaction="addcropdetailexe.php" value="Submit">
+    <br>
+  </p>
+</form>

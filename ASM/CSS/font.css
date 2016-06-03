@@ -1,0 +1,75 @@
+@charset "utf-8";
+h1 {
+    text-align: left;
+	font-weight: bold;
+	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:#22AC7F;
+}
+
+h2 {
+    text-align: left;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+	color:#243A22;
+}
+
+h3 {
+	text-indent:25px;
+    text-align: left;
+}/* CSS Document */
+
+p {
+    text-indent: 25px;
+}
+br {
+   display: block;
+   line-height:normal;
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	border-radius:30px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #194A28; 
+    color: white; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}

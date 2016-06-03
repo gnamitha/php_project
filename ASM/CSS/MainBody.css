@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+#Container
+{
+width:auto;
+height:auto;
+margin-right:auto;
+margin-left:auto;
+margin-top:11px;
+margin-bottom:21px;
+}
+#Header
+{
+height:150px;
+background-color:#ccc;
+}
+#Menu{
+	height:60px;
+	background-color:#B39E9F;
+}
+#Sidebar
+{
+	width:150px;
+	height:400px;
+	background-color:#0c0;
+	float:left;
+
+}
+#MainBody
+{
+	float:right
+	width:650px;
+	height:400px;
+	background-color:#03c;	
+}
+#Footer
+{
+	height:100px;
+	margin-bottom:21px;
+	background-color:#9B9898;
+	clear:both;
+	
+}
+box
+{
+	  background-color: lightgrey;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
